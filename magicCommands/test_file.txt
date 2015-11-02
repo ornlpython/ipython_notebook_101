@@ -1,0 +1,3 @@
+'this is replacing the contain of the first file''This is appending to the file'
+'last line'
+another one

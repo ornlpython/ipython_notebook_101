@@ -1,0 +1,8 @@
+Working with TIFF via PIL or matplotlib
+
+PIL
+Loading and saving the tiff files is easy. The format of the file is unchanged. Range is [0, 65535]
+
+matplotlib
+Loading the file is easy but saving is not. The format of the file is modified as the range goes from [0,255]
+

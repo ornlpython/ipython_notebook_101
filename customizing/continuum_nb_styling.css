@@ -5,7 +5,8 @@
    by Aron Ahmadia and David Ketcheson and has been reused under CC BY 4.0
    */
 
-#site { /* main background */
+/* main background */
+#site { 
     background: #888;
     color: #red; 
 }
@@ -25,6 +26,7 @@ div #notebook { /* centre the content */
     margin: auto;
     padding-left: 1em;
     padding-right: 1em;
+    background-image: url("tile_background.jpg");
 }
 
 #notebook li { /* More space between bullet points */
@@ -114,5 +116,12 @@ div.text_cell_render{
         font-family: "PT Mono", fixed;
         font-size: 100%;
 }
+
+#notebook_panel { /* main background */
+    background-image: url("tile_background.jpg");
+}
+
+
+
 
 </style>
